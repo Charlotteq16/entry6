@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(34, 38, 54);
+}
+
+.image{
+    border: dashed rgb(255, 255, 255);
+    border-width: 10px;
+    position:absolute;
+    left:42%;
+    top:1%;
+}
+
+.bw-image{
+    position:absolute;
+    left: 6.5%;
+    top: 27%;
+}
+
+.number6{
+    font-size: xx-large;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    background-color:rgb(34, 38, 54);
+    border: solid rgb(255, 255, 255);
+    border-width: 5px;
+    color: white;
+}
+
+.info-word{
+    color: white;
+    font-size: 500%;
+    position: absolute;
+    top: 10%;
+    left:15%;
+}
+
+.INFO-CONTAINER{
+    width: 30%;
+    height:.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 20%;
+    left:6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes AnimateBorder{
+    0%{ border-color:rgb(255, 255, 255)}
+    50%{ border-color:rgb(155, 155, 173);}
+    100%{border-color:rgb(127, 139, 211);}
+    
+  }
+
+  .information{
+    width: 90%;
+    position:relative;
+    left: 5%;
+    top: 10%;
+  }
+
+
+.info-word{
+    font-size: 500%;
+    position: absolute;
+    top: 10%;
+    left:15%;
+}
+
+
+.INFO-CONTAINER:hover{
+    transition: width 3s, height 3s, opacity 2s;
+    height: 58%;
+    font-size: 30px;
+    flex: 4;
+}
+
+.thoughts{
+    width: 95%;
+    position:relative;
+    left: 1%;
+    top:.5%;
+  }
+
+  .thoughts-word{
+    color: white;
+    font-size: 500%;
+    position:absolute;
+    bottom:5%;
+    left:7%;
+}
+
+.thoughts-container{
+    width: 30%;
+    height:.5%;
+    background-color: whitesmoke;
+    position: absolute;
+    bottom:15%;
+    left:6%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    border: solid;
+    border-width: 10px;
+    animation-name: AnimateBorder;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; 
+}
+
+.thoughts-container:hover{
+    transition: width 3s, height 3s, opacity 2s;
+    height: 58%;
+    font-size: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
